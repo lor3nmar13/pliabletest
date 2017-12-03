@@ -1,0 +1,87 @@
+body {
+    margin:0px;
+}
+
+#grid {
+    display: grid;
+    grid-template: 100px 300px 150px 50px /
+   1fr 1fr 280px 280px 1fr 1fr;
+}
+
+}
+#grid . {
+    border: 2px solid black;
+}
+
+#sectiona {
+    background-color: rgb(97, 97, 170);
+    grid-row: 1/2;
+    grid-column: 1/2;
+    }
+
+#sectionb {
+    grid-area: sectionb;
+    background-color: rgb(19, 19, 31);
+    height: 100px;
+    grid-row: 1/2;
+    grid-column: 2/6;
+
+}
+
+#sectionc {
+    grid-area; sectionc;
+    background-color: rgb(97,97, 170);
+    grid-row;: 1/2;
+    grid-column: 6/7;
+    
+}
+
+#sectiond {
+    grid-area: sectiond;
+    background-color: purple;
+    grid-row: 2/3;
+    grid-column: 1/2;
+
+}
+
+#sectione {
+    grid-area: sectione;
+    background-color: rgb(65, 63, 63);
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+
+#sectionf {
+    grid-area: sectionf;
+    background-color: grey;
+    grid-row: 2/3;
+    grid-column: 3/5;
+}
+
+#sectiong {
+    grid-area: sectiong;
+    background-color:rgb(65, 63, 63);
+    grid-row: 2/3;
+    grid-column: 5/6;
+}
+
+#sectionh {
+    grid-area: sectionh;
+    background-color: purple;
+    grid-row: 2/3;
+    grid-column: 6/7;
+}
+
+#sectioni {
+    grid-area: sectioni;
+    background-color:rgb(97, 97, 170);
+    grid-row: 3/4;
+    grid-column: 1/7;
+}
+
+footer {
+    grid-area: sectionj;
+    background-color:rgb(65, 63, 63);
+    grid-row: 4/5;
+    grid-column: 1/7;
+}
